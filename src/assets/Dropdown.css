@@ -1,0 +1,111 @@
+/* Style for all nav buttons */
+.nav-button {
+  background-color: #ffffff;
+  border: 2px solid #007bff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+}
+
+.nav-button:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  display: flex;
+  flex-direction: column; /* 👈 this ensures vertical stacking */
+  z-index: 1000;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Each dropdown item (link) */
+.dropdown-item {
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background-color: #e6f0ff;
+  color: #007bff;
+  transform: scale(1.03);
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Full-width Navigation Bar */
+.navbar {
+  background-color: #e6f0ff; /* Bluish color */
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full width of the viewport */
+  border-radius: 0; /* Remove rounding for full edge look */
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1);
+  margin: 0; /* Remove margin so it sticks to edges */
+  position: relative;
+  z-index: 10;
+}
+
+/* Flex list inside nav */
+.navbar ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  
+ /* Flex list inside nav */
+.navbar ul {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+  
+}
