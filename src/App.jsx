@@ -47,15 +47,14 @@ const Navigation = () => {
           </button>
 
           {showDropdown && (
-  <div className="dropdown-menu">
-    <Link to="/services/electronics" className="dropdown-item">Electronics</Link>
-    <Link to="/services/furniture" className="dropdown-item">Furniture</Link>
-    <Link to="/services/utensils" className="dropdown-item">Utensils</Link>
-    <Link to="/kids-and-toys" className="dropdown-item">Kids and Toys</Link>
-    <Link to="/services/machinery" className="dropdown-item">Machinery</Link>
-  </div>
-)}
-
+            <div className="dropdown-menu">
+              <Link to="/services/electronics" className="dropdown-item">Electronics</Link>
+              <Link to="/services/furniture" className="dropdown-item">Furniture</Link>
+              <Link to="/services/utensils" className="dropdown-item">Utensils</Link>
+              <Link to="/kids-and-toys" className="dropdown-item">Kids and Toys</Link>
+              <Link to="/services/machinery" className="dropdown-item">Machinery</Link>
+            </div>
+          )}
         </li>
 
         <li>
@@ -82,20 +81,22 @@ const Navigation = () => {
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/services/electronics" element={<ElectronicsSold />} />
-        <Route path="/kids-and-toys" element={<KidsAndToys />} />
-        <Route path="/services/machinery" element={<Machinery />} />
-        <Route path="/services/utensils" element={<Utensils />} />
-        <Route path="/services/furniture" element={<Furniture />} />
-      </Routes>
-      <Footer />
+      <div className="app-container">
+        <Header />
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/services/electronics" element={<ElectronicsSold />} />
+          <Route path="/kids-and-toys" element={<KidsAndToys />} />
+          <Route path="/services/machinery" element={<Machinery />} />
+          <Route path="/services/utensils" element={<Utensils />} />
+          <Route path="/services/furniture" element={<Furniture />} />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 };

@@ -26,37 +26,37 @@ const ElectronicsSold = () => {
         <div className="electronics-card">
           <img src={phone} alt="Smartphone" className="electronics-image" />
           <h3 className="electronics-name">Smartphone</h3>
-          <p className="electronics-price">Ksh 15,000</p>
+          <p className="electronics-price">Smartphone, your world in hand.</p>
         </div>
 
         <div className="electronics-card">
           <img src={tv} alt="Flat Screen TV" className="electronics-image" />
           <h3 className="electronics-name">Flat Screen TV</h3>
-          <p className="electronics-price">Ksh 35,000</p>
+          <p className="electronics-price">Television where stories live.</p>
         </div>
 
         <div className="electronics-card">
           <img src={laptop} alt="Laptop" className="electronics-image" />
           <h3 className="electronics-name">Laptop</h3>
-          <p className="electronics-price">Ksh 45,000</p>
+          <p className="electronics-price">Laptop power, life unlocked.</p>
         </div>
 
         <div className="electronics-card">
           <img src={fridge} alt="Fridge" className="electronics-image" />
           <h3 className="electronics-name">Fridge</h3>
-          <p className="electronics-price">Ksh 55,000</p>
+          <p className="electronics-price">Refrigerator keeping love fresh.</p>
         </div>
 
         <div className="electronics-card">
           <img src={camera} alt="Camera" className="electronics-image" />
           <h3 className="electronics-name">DSLR Camera</h3>
-          <p className="electronics-price">Ksh 25,000</p>
+          <p className="electronics-price">Camera that saves feelings.</p>
         </div>
 
         <div className="electronics-card">
           <img src={speaker} alt="Bluetooth Speaker" className="electronics-image" />
           <h3 className="electronics-name">Bluetooth Speaker</h3>
-          <p className="electronics-price">Ksh 7,500</p>
+          <p className="electronics-price">Speaker that speaks emotion.</p>
         </div>
       </div>
     </div>

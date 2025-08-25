@@ -34,7 +34,7 @@ const KidsAndToys = () => {
           <div className="toys-card" key={index}>
             <img src={img} alt="Toy" className="toys-image" />
             <h3 className="toys-name">Exciting Toy</h3>
-            <p className="toys-price">From Ksh {(index + 1) * 500 + 1000}</p>
+            <p className="toys-price">Smiles in Every Toy.</p>
           </div>
         ))}
       </div>

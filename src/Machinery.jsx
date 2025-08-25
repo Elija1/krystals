@@ -12,14 +12,14 @@ import "./assets/Machinery.css";
 
 
 const tools = [
-  { img: tool1, name: "Heavy Duty Drill", price: "Ksh 20,000" },
-  { img: tool2, name: "Electric Saw", price: "Ksh 18,500" },
-  { img: tool3, name: "Industrial Grinder", price: "Ksh 25,000" },
-  { img: tool4, name: "Water Pump", price: "Ksh 15,000" },
-  { img: tool5, name: "Electric Sander", price: "Ksh 12,000" },
-  { img: tool6, name: "Angle Grinder", price: "Ksh 14,000" },
-  { img: tool7, name: "Chain Hoist", price: "Ksh 22,000" },
-  { img: tool8, name: "Concrete Mixer", price: "Ksh 38,000" },
+  { img: tool1, name: "Heavy Duty Drill", price: "Drill, precision in action." },
+  { img: tool2, name: "Electric Saw", price: "Electric saw, cut with power" },
+  { img: tool3, name: "Industrial Grinder", price: "Blend strength and flow." },
+  { img: tool4, name: "Water Pump", price: "Power that never stops." },
+  { img: tool5, name: "Electric Sander", price: "Smooth every surface." },
+  { img: tool6, name: "Angle Grinder", price: "Grind, precision in action." },
+  { img: tool7, name: "Chain Hoist", price: "Pliers, grip with strength." },
+  { img: tool8, name: "Concrete Mixer", price: "Mixer, blend with power." },
 ];
 
 const Machinery = () => {

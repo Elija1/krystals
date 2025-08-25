@@ -12,14 +12,14 @@ import jug from "./jug.jpg";
 import "./Utensils.css";
 
 const utensils = [
-   { img: spoon, name: "Serving Spoon", price: "Ksh 200" },
-  { img: plates, name: "Dinner Plates", price: "Ksh 1,000" },
-  { img: cup, name: "Tea Cup", price: "Ksh 150" },
-  { img: pot, name: "Cooking Pot", price: "Ksh 2,500" },
-  { img: bowl, name: "Mixing Bowl", price: "Ksh 500" },
-  { img: tray, name: "Serving Tray", price: "Ksh 600" },
-  { img: glass, name: "Glass Cup", price: "Ksh 300" },
-  { img: jug, name: "Water Jug", price: "Ksh 800" },
+   { img: spoon, name: "Serving Spoon", price: "Spoon, taste the love." },
+  { img: plates, name: "Dinner Plates", price: "Plate, where meals live." },
+  { img: cup, name: "Tea Cup", price: "Cup, sip the moments." },
+  { img: pot, name: "Cooking Pot", price: "Pot, cook with heart." },
+  { img: bowl, name: "Mixing Bowl", price: "Bowl, hold the warmth." },
+  { img: tray, name: "Serving Tray", price: "Tray, serve with love." },
+  { img: glass, name: "Glass Cup", price: "Glass, pour the joy" },
+  { img: jug, name: "Water Jug", price: "Jug, pour the joy." },
 ];
 
 const Utensils = () => {

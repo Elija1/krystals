@@ -11,14 +11,14 @@ import tvstand from "./tvstand.jpg";
 import "./Furniture.css"; // ✅ This path is correct if CSS is in the same folder
 
 const items = [
-   { img: chair, name: "Comfortable Chair", price: "Ksh 5,000" },
-  { img: sofa, name: "Modern Sofa", price: "Ksh 25,000" },
-  { img: wardrobe, name: "Wooden Wardrobe", price: "Ksh 18,000" },
-  { img: table, name: "Dining Table", price: "Ksh 12,000" },
-  { img: bed, name: "King Size Bed", price: "Ksh 30,000" },
-  { img: stool, name: "Wooden Stool", price: "Ksh 2,500" },
-  { img: drawer, name: "Chest of Drawers", price: "Ksh 9,000" },
-  { img: tvstand, name: "TV Stand", price: "Ksh 8,500" },
+   { img: chair, name: "Comfortable Chair", price: "sofa where comfort lives." },
+  { img: sofa, name: "Modern Sofa", price: "Sofa, comfort lives here." },
+  { img: wardrobe, name: "Wooden Wardrobe", price: "A wardrobe that keeps your story." },
+  { img: table, name: "Dining Table", price: "A table where moments gather." },
+  { img: bed, name: "King Size Bed", price: "Bed, where dreams rest." },
+  { img: stool, name: "Wooden Stool", price: "stool that lifts your ease." },
+  { img: drawer, name: "Chest of Drawers", price: "Drawer, keep life safe." },
+  { img: tvstand, name: "TV Stand", price: "TV stand, frame your view." },
 ];
 
 const Furniture = () => {
