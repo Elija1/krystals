@@ -35,6 +35,7 @@ const KidsAndToys = () => {
             <img src={img} alt="Toy" className="toys-image" />
             <h3 className="toys-name">Exciting Toy</h3>
             <p className="toys-price">Smiles in Every Toy.</p>
+            
           </div>
         ))}
       </div>
